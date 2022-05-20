@@ -7,12 +7,12 @@ int GetNumWithoutDecimalPoints(double n);
 int Ceil(double number);
 double Floor(double number);
 
-GetNumWithoutDecimalPoints(double n)
+GetNumWithoutDecimalPoints(double n) // i dont remember what this one was for, and it seems useless
 {
     return (n -= Floor(n));
 }
 
-double W(double value)
+double W(double value)	// a horrible attempt to calculate lambert w function
 {
     double lambert = 0;
     double w = -100;
@@ -200,7 +200,7 @@ double Sin(double AngD)
     return result;
 }
 
-double root(double value, int rt)    // calculating roots using Newton's Method. note (not accurate for extremely large numbers)
+double root(double value, int rt)    // calculating roots using Newton's Method. 
 {
 
     double xOFn = 100;
@@ -270,7 +270,7 @@ double Cot(double angle)
 
 
 
-class Angle
+class Angle		// a totally useless class, but i just made it to confirm that everything works properly
 {
 	private:
 		double angle;
