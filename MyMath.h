@@ -54,14 +54,14 @@ double NormalAngle(double angle)
 
     return FA;
 }
-double DTR (double angle)
+double DTR (double angle)	// degrees to radian
 {
 	double Pi = 3.141593;
 	double RD = angle*(Pi/180);
 	
 	return RD;
 }
-double RTD (double REX)
+double RTD (double REX)	// radian to degrees
 {
 	double Pi = 3.141593;
 	double angle = REX*(180/Pi);
@@ -165,7 +165,7 @@ double pow(double b, double p)
     return power;
 }
 
-double DegToRadian(double angle)
+double DegToRadian(double angle) 		// specific
 {
     angle = RefAngle(angle);
     double Pi = 3.141593;
