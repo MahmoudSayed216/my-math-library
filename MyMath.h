@@ -2,7 +2,7 @@
 #define MYMATH_H_INCLUDED
 #include<iostream>
 using namespace std;
-
+// i will add more and more mathematical functions but i just need to fix a couple of accuracy related problems
 int GetNumWithoutDecimalPoints(double n);
 int Ceil(double number);
 double Floor(double number);
